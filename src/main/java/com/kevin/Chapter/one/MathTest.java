@@ -2,7 +2,7 @@ package com.kevin.Chapter.one;
 
 import java.util.Stack;
 
-public class Math {
+public class MathTest {
     //判断一个数是不是素数
     public static boolean isPrime(int number){
         if(number<2)
