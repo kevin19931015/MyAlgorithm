@@ -2,7 +2,7 @@ package com.kevin.Chapter.one;
 
 import edu.princeton.cs.introcs.StdDraw;
 
-public class Function {
+public class DrawImage {
     public static void main(String[] args){
         int N =100;
         StdDraw.setXscale(0,N);
