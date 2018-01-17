@@ -9,12 +9,13 @@ import java.util.Arrays;
 public class Shell {
     public static void sort(Comparable[] c){
         int N = c.length;
-        int h = N/2;
+        int h = 1;
+        while(h<N/3) h= 3*h+1;
         while(h>=1){
             for(int i=h;i<N;i++)
                 for(int j=i;j>h-1&&Example.less(c[j],c[j-h]);j-=h)
                     Example.exch(c,j,j-h);
-            h/=2;
+            h/=3;
         }
     }
 
